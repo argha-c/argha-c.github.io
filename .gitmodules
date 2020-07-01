@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/argha-c/argha-c.github.io.git
-	branch = master
