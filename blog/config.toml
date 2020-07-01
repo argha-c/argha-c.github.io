@@ -1,0 +1,33 @@
+baseURL = "https://www.argha.dev/"
+languageCode = "en-us"
+title = "Argha C"
+theme = "archie"
+copyright = "© Argha C"
+# Social Tags
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/argha7c"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writes"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
