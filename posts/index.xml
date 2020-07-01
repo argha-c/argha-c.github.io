@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Argha C</title>
+    <link>https://www.argha.dev/posts/</link>
+    <description>Recent content in Posts on Argha C</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.argha.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java 14</title>
+      <link>https://www.argha.dev/posts/java14/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.argha.dev/posts/java14/</guid>
+      <description>The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
+ JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&amp;rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea.</description>
+    </item>
+    
+  </channel>
+</rss>
