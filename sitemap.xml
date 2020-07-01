@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.argha.dev/about/</loc>
+    <lastmod>2020-06-30T16:36:38-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.argha.dev/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
@@ -18,11 +23,17 @@
   </url>
   
   <url>
-    <loc>https://www.argha.dev/categories/</loc>
+    <loc>https://www.argha.dev/tags/programming/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.argha.dev/tags/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.argha.dev/categories/</loc>
   </url>
   
 </urlset>
