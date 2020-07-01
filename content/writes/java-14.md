@@ -1,7 +1,7 @@
 ---
 title: "Java 14"
 date: 2020-05-09
-draft: true
+draft: false
 ---
 ### The future looks promising
 Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:

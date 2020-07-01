@@ -1,7 +1,7 @@
 ---
 title: "Intro"
 date: 2020-06-30T16:36:38-07:00
-draft: true
+draft: false
 ---
 
 Hello.
