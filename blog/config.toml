@@ -1,0 +1,4 @@
+baseURL = "https://www.argha.dev/"
+languageCode = "en-us"
+title = "Argha C"
+theme = "etch"
