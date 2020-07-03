@@ -14,10 +14,10 @@
     
     <item>
       <title>Java 14</title>
-      <link>https://www.argha.dev/posts/java14/</link>
+      <link>https://www.argha.dev/writes/java14/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.argha.dev/posts/java14/</guid>
+      <guid>https://www.argha.dev/writes/java14/</guid>
       <description>The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
  JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&amp;rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea.</description>
     </item>
