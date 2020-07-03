@@ -1,0 +1,36 @@
+baseURL = "https://www.argha.dev/"
+languageCode = "en-us"
+title = "Argha C"
+theme = "smol"
+copyright = "© Argha C"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writes"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+
+# Social Tags
+
+[[menu.footer]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/argha7c"
+
