@@ -21,7 +21,7 @@ For some reason, the language my teacher decided to introduce me to was Java, no
 There have been fewer moments as joyful as running javac HelloWorld.java one evening and seeing it compile successfully.\
 (*I hadn't used fancy IDEs yet, so `public static void main(String[] args)` had to be painstakingly typed out, instead of a `psvm`*)
 
-In late 2013, I was introduced to Scala. By 2016, it had fundamentally influenced my approach to programming, with an **emphasis** on pure functional paradigm.\
+In late 2013, I was introduced to Scala. By 2016, it had fundamentally influenced my approach to programming, with an **emphasis** on pure functional paradigm.
 Writing custom ADTs to model domain entities, leaning on pattern matching heavily as a first class construct, and more than anything else being able to get back to reasoning about computation with a familiar math concept - application of functions to state. (I'm going to stay away from the debate of imperative vs functional, or use the m word).
 
 The point being this brought back the joy that had somewhat been diluted over the years, and felt similar to that summer of 2003.
