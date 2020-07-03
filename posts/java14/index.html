@@ -1,64 +1,53 @@
 <!DOCTYPE html>
-<html><head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Java 14 - Argha C</title><meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta property="og:description" content="" />
-	<meta name="twitter:description" content="" />
-	<meta name="description" content="" />
-	<meta name="description" content="" />
-
-	<meta property="og:title" content="Java 14 | Argha C" />
-	<meta name="twitter:title" content="Java 14 | Argha C" />
-
-	<meta property="og:image" content=""/>
-	<meta itemprop="name" content="Java 14 | Argha C" />
-	<meta name="application-name" content="Java 14 | Argha C" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:title" content="Java 14" />
-<meta property="og:description" content="The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
- JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.argha.dev/posts/java14/" />
-<meta property="article:published_time" content="2020-05-09T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-09T00:00:00+00:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Java 14"/>
-<meta name="twitter:description" content="The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
- JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea."/>
-<script src="https://www.argha.dev/js/feather.min.js"></script>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Java 14</title>
 	
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.argha.dev/css/main.css" />
-</head><body>
-        <div class="content"><header>
-	<div class="main">
-		<a href="https://www.argha.dev/">Argha C</a>
-	</div>
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	=============<br>
+	== <a href="https://www.argha.dev/">Argha C</a> ==<br>
+	=============
+	<div style="float: right;"></div><br>
+	<p>
 	<nav>
-		
-		<a href="/">Home</a>
-		
-		<a href="/posts">Writes</a>
-		
-		<a href="/about">About</a>
-		
-		<a href="/tags">Tags</a>
-		
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/"><b>Home</b></a>.
+			
+			<a href="/posts"><b>Writes</b></a>.
+			
+			<a href="/articles"><b>Articles</b></a>.
+			
+			<a href="/tags"><b>Tags</b></a>.
+			
+			<a href="/about"><b>About</b></a>.
+			
 	</nav>
+	</p>
+	
 </header>
 
-<main>
-	<article>
-		<div class="title">
-			<h1 class="title">Java 14</h1>
-			<div class="meta">Posted on May 9, 2020</div>
-		</div>
-		
+	
+	<main>
+		<article>
+			<h1>Java 14</h1>
+			<b><time>09.05.2020 00:00</time></b>
+		       
+		           <a href="/tags/programming">programming</a>
+        	       
 
-		<section class="body">
-			<h3 id="the-future-looks-promising">The future looks promising</h3>
+			<div>
+				<h3 id="the-future-looks-promising">The future looks promising</h3>
 <p>Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:</p>
 <ul>
 <li><a href="https://openjdk.java.net/jeps/384">JEP 360: Sealed Types (Preview)</a></li>
@@ -73,7 +62,7 @@ I might update this post to include examples, at some point.</em>)</p>
 <p>For some reason, the language my teacher decided to introduce me to was Java, not C or BASIC, as was common back then.
 There have been fewer moments as joyful as running javac HelloWorld.java one evening and seeing it compile successfully.<br>
 (<em>I hadn&rsquo;t used fancy IDEs yet, so <code>public static void main(String[] args)</code> had to be painstakingly typed out, instead of a <code>psvm</code></em>)</p>
-<p>In late 2013, I was introduced to Scala. By 2016, it had fundamentally influenced my approach to programming, with an <strong>emphasis</strong> on pure functional paradigm.<br>
+<p>In late 2013, I was introduced to Scala. By 2016, it had fundamentally influenced my approach to programming, with an <strong>emphasis</strong> on pure functional paradigm.
 Writing custom ADTs to model domain entities, leaning on pattern matching heavily as a first class construct, and more than anything else being able to get back to reasoning about computation with a familiar math concept - application of functions to state. (I&rsquo;m going to stay away from the debate of imperative vs functional, or use the m word).</p>
 <p>The point being this brought back the joy that had somewhat been diluted over the years, and felt similar to that summer of 2003.</p>
 <p>Professionally, I&rsquo;ve preferred writing and operating systems on the JVM, for a decade now.</p>
@@ -81,31 +70,30 @@ Writing custom ADTs to model domain entities, leaning on pattern matching heavil
 While I&rsquo;ve consciously stayed away from language wars, this post is to share the hope that&rsquo;s been rekindled recently, and hopefully motivate beginners and seasoned practitioners to feel that joy I relate to.\</p>
 <p>For now, I feel a light sense of joy and hope, that kind you feel when being reunited with your first love.</p>
 
-		</section>
-
-		<div class="post-tags">
-			
-			
-			<nav class="nav tags">
-				<ul class="tags">
-					
-					<li><a href="/tags/programming">programming</a></li>
-					
-				</ul>
-			</nav>
-			
-			
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
 		</div>
-	</article>
-</main>
-<footer>
-<hr><a class="soc" href="https://twitter.com/argha7c" title="Twitter"><i data-feather="twitter"></i></a>|⚡️
-	2020  © Argha C |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+		<div>
+			<ul>
+				
+				<li><a href="/articles/lessons-in-resilience/">Lessons in resilience</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2020 <a href="https://www.argha.dev/"><b>Argha C</b></a>.
+	<a href="https://twitter.com/argha7c"><b>Twitter</b></a>.
+	</p>
 </footer>
 
-
-<script>
-      feather.replace()
-</script></div>
-    </body>
+</body>
 </html>
