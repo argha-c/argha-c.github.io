@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Argha C</copyright>
-    <lastBuildDate>Wed, 07 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.argha.dev/articles/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,12 +15,12 @@
     <item>
       <title>Lessons in resilience</title>
       <link>https://www.argha.dev/articles/lessons-in-resilience/</link>
-      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.argha.dev/articles/lessons-in-resilience/</guid>
       <description>Back in 2016, I wrote this article on resilience with microservices, based on my experiences using Finagle.
-The post talks about the evolution from using simple circuit breakers to more mature client-side load balancing features, in the service mesh world.
-While this predates the days of service mesh, some of the early adopters found our experiences valuable, and the early aspects of resilience and client side load balancing features in the service mesh were pretty close to what the post details @argha7c this was inspired by your soundcloud post!</description>
+Read &amp;quot;Lessons in resilience at SoundCloud&amp;quot; by @argha7c - more learnings on microservices with Finagle https://t.co/ji4qG3CbbH
+&amp;mdash; SoundCloud Devs (@SoundCloudDev) December 8, 2016  While this predates the days of service mesh, some of the early adopters found our experiences valuable, and the early aspects of resilience and client side load balancing features in the service mesh were pretty close to what the post details @argha7c this was inspired by your soundcloud post!</description>
     </item>
     
   </channel>
