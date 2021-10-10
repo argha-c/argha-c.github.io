@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Argha C</title>
+    <link>https://www.argha.dev/</link>
+    <description>Recent content on Argha C</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Argha C</copyright>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.argha.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro</title>
+      <link>https://www.argha.dev/about/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.argha.dev/about/</guid>
+      <description>Hello, I&amp;rsquo;m a software engineer and I enjoy writing code. My professional interests revolve around the JVM, concurrency, and statically typed programming languages. Work has taken me across 4 continents, and spans over a decade, by now.
+I have a mild obession with good coffee, and really good wine. I am a soccer fan, but cricket shall always remain my first love.
+This is a place where I share my musings on software, philosophy, and the things in between.</description>
+    </item>
+    
+    <item>
+      <title>Java 14</title>
+      <link>https://www.argha.dev/writes/java14/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.argha.dev/writes/java14/</guid>
+      <description>The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
+ JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&amp;rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea.</description>
+    </item>
+    
+    <item>
+      <title>Lessons in resilience</title>
+      <link>https://www.argha.dev/articles/lessons-in-resilience/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.argha.dev/articles/lessons-in-resilience/</guid>
+      <description>Back in 2016, I wrote this article on resilience with microservices, based on my experiences using Finagle.
+The post talks about the evolution from using simple circuit breakers to more mature client-side load balancing features, in the service mesh world.
+While this predates the days of service mesh, some of the early adopters found our experiences valuable, and the early aspects of resilience and client side load balancing features in the service mesh were pretty close to what the post details @argha7c this was inspired by your soundcloud post!</description>
+    </item>
+    
+  </channel>
+</rss>
