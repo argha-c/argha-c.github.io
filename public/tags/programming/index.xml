@@ -7,17 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Argha C</copyright>
-    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.argha.dev/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.argha.dev/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java 14</title>
-      <link>https://www.argha.dev/writes/java14/</link>
+      <link>https://www.argha.dev/posts/java14/</link>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.argha.dev/writes/java14/</guid>
+      <guid>https://www.argha.dev/posts/java14/</guid>
       <description>The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
  JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&amp;rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea.</description>
     </item>
@@ -25,12 +21,12 @@
     <item>
       <title>Lessons in resilience</title>
       <link>https://www.argha.dev/articles/lessons-in-resilience/</link>
-      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.argha.dev/articles/lessons-in-resilience/</guid>
       <description>Back in 2016, I wrote this article on resilience with microservices, based on my experiences using Finagle.
-The post talks about the evolution from using simple circuit breakers to more mature client-side load balancing features, in the service mesh world.
-While this predates the days of service mesh, some of the early adopters found our experiences valuable, and the early aspects of resilience and client side load balancing features in the service mesh were pretty close to what the post details @argha7c this was inspired by your soundcloud post!</description>
+Read &amp;quot;Lessons in resilience at SoundCloud&amp;quot; by @argha7c - more learnings on microservices with Finagle https://t.co/ji4qG3CbbH
+&amp;mdash; SoundCloud Devs (@SoundCloudDev) December 8, 2016  While this predates the days of service mesh, some of the early adopters found our experiences valuable, and the early aspects of resilience and client side load balancing features in the service mesh were pretty close to what the post details @argha7c this was inspired by your soundcloud post!</description>
     </item>
     
   </channel>

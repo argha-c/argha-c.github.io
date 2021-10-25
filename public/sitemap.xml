@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.argha.dev/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.argha.dev/about/</loc>
+  </url><url>
+    <loc>https://www.argha.dev/articles/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.argha.dev/writes/java14/</loc>
+  </url><url>
+    <loc>https://www.argha.dev/posts/java14/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.argha.dev/articles/lessons-in-resilience/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.argha.dev/posts/</loc>
+    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.argha.dev/tags/programming/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.argha.dev/tags/</loc>
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.argha.dev/writes/</loc>
-    <lastmod>2020-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.argha.dev/articles/</loc>
-    <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.argha.dev/articles/lessons-in-resilience/</loc>
-    <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.argha.dev/categories/</loc>
+  </url><url>
+    <loc>https://www.argha.dev/about/</loc>
   </url>
-  
 </urlset>
