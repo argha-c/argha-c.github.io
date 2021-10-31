@@ -2,6 +2,7 @@
 title: "Lessons in resilience"
 date: 2020-05-09
 draft: false
+type: page
 tags: [programming]
 ---
 
