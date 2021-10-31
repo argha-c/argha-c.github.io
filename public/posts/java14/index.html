@@ -2,16 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Posts - Argha C</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="alternate" type="application/rss+xml" href="https://www.argha.dev/posts/index.xml" title="Argha C" />
-	<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.argha.dev/posts/" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Java 14 - Argha C</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Java 14" />
+<meta property="og:description" content="The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
+ JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.argha.dev/posts/java14/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-05-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-09T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Java 14"/>
+<meta name="twitter:description" content="The future looks promising Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:
+ JEP 360: Sealed Types (Preview) JEP 384: Records (Second Preview) JEP 375: Pattern Matching for instanceof (Second Preview) JEP 361: Switch Expressions (Standard)  (While I haven&rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://www.argha.dev/css/normalize.css" />
@@ -21,9 +24,8 @@
 	<script src="https://www.argha.dev/js/main.js"></script>
 </head>
 
-
 <body>
-	<div class="container wrapper list">
+	<div class="container wrapper post">
 		<div class="header">
 	<base href="https://www.argha.dev/">
 	<h1 class="site-title"><a href="https://www.argha.dev/">Argha C</a></h1>
@@ -56,17 +58,52 @@
 </div>
 
 
-		
-			<h1 class="page-title">All articles</h1>
-		
+		<div class="post-header">
+			<h1 class="title">Java 14</h1>
+			<div class="meta">Posted at &mdash; May 9, 2020</div>
+		</div>
 
-		
+		<div class="markdown">
+			<h3 id="the-future-looks-promising">The future looks promising</h3>
+<p>Java 14 proposals have got me excited. There seems to be a clear interest in making certain concepts from the functional paradigm mainstream. Few specific ones that are top of mind for me are listed:</p>
+<ul>
+<li><a href="https://openjdk.java.net/jeps/384">JEP 360: Sealed Types (Preview)</a></li>
+<li><a href="https://openjdk.java.net/jeps/384">JEP 384: Records (Second Preview)</a></li>
+<li><a href="https://openjdk.java.net/jeps/361">JEP 375: Pattern Matching for instanceof (Second Preview)</a></li>
+<li><a href="https://openjdk.java.net/jeps/361">JEP 361: Switch Expressions (Standard)</a></li>
+</ul>
+<p>(<em>While I haven&rsquo;t taken the time to describe what each of these imply, reading the abstract should provide an idea.
+I might update this post to include examples, at some point.</em>)</p>
+<h3 id="background">Background</h3>
+<p>My interest in serious programming dates back to the summer of 2003, in middle school, during a hot Indian summer.</p>
+<p>For some reason, the language my teacher decided to introduce me to was Java, not C or BASIC, as was common back then.</p>
+<p>There have been fewer moments as joyful as running javac HelloWorld.java one evening and seeing it compile successfully.
+(I hadn&rsquo;t used fancy IDEs yet, so <code>public static void main(String[] args)</code> had to be painstakingly typed out, instead of a <code>psvm</code>)</p>
+<h3 id="journey">Journey</h3>
+<p>In late 2013, I was introduced to Scala. By 2016, it had fundamentally influenced my approach to programming, with an <strong>emphasis</strong> on pure functional paradigm.</p>
+<p>Writing custom ADTs to model domain entities, leaning on pattern matching heavily as a first class construct, and more than anything else being able to get back to reasoning about computation with a familiar math concept - application of functions to state. (I&rsquo;m going to stay away from the debate of imperative vs functional, or use the m word).</p>
+<p>The point being this brought back the joy that had somewhat been diluted over the years, and felt similar to that summer of 2003.</p>
+<p>Professionally, I&rsquo;ve preferred writing and operating systems on the JVM, for a decade now.</p>
+<p>However, coming back to Java around 2017, after having been immersed in the world of Scala for ~3 years felt limiting. It seemed the spark had gone missing.</p>
+<p>While I&rsquo;ve consciously stayed away from language wars, this post is to share the hope that&rsquo;s been rekindled recently, and hopefully motivate beginners and seasoned practitioners to feel that joy I relate to.</p>
+<p>For now, I feel a light sense of joy and hope; the kind you feel when being reunited with your first love.</p>
 
-		<ul class="posts"><li class="post">
-				<a href="/posts/java14/">Java 14</a> <span class="meta">May 9, 2020</span>
-			</li></ul>
-	</div>
+		</div>
 
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/programming">programming</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> © Argha C |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
@@ -77,5 +114,4 @@
 
 
 </body>
-
 </html>
